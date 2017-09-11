@@ -21,8 +21,7 @@ function startCastles() {
         upSlope = 0;
 
     if (firstTime) {
-        myArray = [2, 3, 0, 4, 5, 5, 5, -1, 3, 3];
-        //myArray = [2, 8, 6, 1, 4, 3, 8, 4, 7, 6];
+        myArray = [2, 2, 4, 4, 5, 5, 5, -1, 3, 3];
         firstTime = false;
     } else {
         myArray = randomArray(10, length - 1, offset)
